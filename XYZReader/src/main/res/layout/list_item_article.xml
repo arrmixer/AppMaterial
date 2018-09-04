@@ -9,7 +9,7 @@
     android:layout_marginStart="@dimen/tile_padding"
     android:layout_marginEnd="@dimen/tile_padding"
     android:foreground="?attr/selectableItemBackground"
-    android:elevation="@dimen/fab_elevation">
+    android:elevation="@dimen/card_elevation">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,6 +37,7 @@
             android:layout_alignBottom="@+id/thumbnail"
             android:layout_marginLeft="@dimen/tile_padding"
             android:textColor="@color/cardview_light_background"
+            android:layout_margin="@dimen/tile_padding"
             android:ellipsize="end"
             android:textSize="@dimen/article_titles"
             android:maxLines="4"
